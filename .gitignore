@@ -1,11 +1,46 @@
-# Generic
-.env
-.DS_Store
-.idea/
-.vscode/
-*.log
+# Python
 __pycache__/
-node_modules/
-target/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
 dist/
 build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Environment
+.env
+.env.local
+
+# Pytest
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Data
+*.csv
+*.xlsx
+*.parquet
+data/
